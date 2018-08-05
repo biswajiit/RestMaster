@@ -5,7 +5,7 @@ import java.util.List;
 public class Model {
 	private String functionalId;
 	private String url;
-	private List<Entity> entities;
+	private List<JsonEntity> entities;
 
 	public String getFunctionalId() {
 		return functionalId;
@@ -23,11 +23,11 @@ public class Model {
 		this.url = url;
 	}
 
-	public List<Entity> getEntities() {
+	public List<JsonEntity> getEntities() {
 		return entities;
 	}
 
-	public void setEntities(List<Entity> entities) {
+	public void setEntities(List<JsonEntity> entities) {
 		this.entities = entities;
 	}
 
