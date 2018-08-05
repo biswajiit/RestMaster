@@ -12,6 +12,7 @@ public class JsonEntity {
 	private String min_length;
 	private String max_length;
 	private String nullable;
+	private String repeat;
 	private List<JsonEntity> values;
 
 	public String getName() {
@@ -60,6 +61,14 @@ public class JsonEntity {
 
 	public void setValues(List<JsonEntity> values) {
 		this.values = values;
+	}
+
+	public String getRepeat() {
+		return repeat;
+	}
+
+	public void setRepeat(String repeat) {
+		this.repeat = repeat;
 	}
 
 }
